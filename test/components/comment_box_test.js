@@ -11,6 +11,7 @@ describe('CommentBox', () => {
   it('has the class comment-box', () => {
     expect(component).to.have.class('comment-box');
   });
+  
   it('has a text area', () => {
     expect(component.find('textarea')).to.exist;
   });

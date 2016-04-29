@@ -11,7 +11,7 @@ describe('CommentBox', () => {
   it('has the class comment-box', () => {
     expect(component).to.have.class('comment-box');
   });
-  
+
   it('has a text area', () => {
     expect(component.find('textarea')).to.exist;
   });
@@ -19,4 +19,14 @@ describe('CommentBox', () => {
   it('has a button', () => {
     expect(component.find('button')).to.exist;
   });
+
+  describe('entering some text', () => {
+    it('shows text that is entered', () => {
+
+    });
+    it('when submitted, clears the input', () => {
+
+    });
+  });
+
 });

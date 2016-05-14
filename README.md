@@ -1,7 +1,7 @@
 React Testing
 =================
 
-An app to practice testing React components with React Test Utilities, Mocha and Chai.
+An app which posts comments to a feed, built to practice testing React components with React Test Utilities, Mocha and Chai.
 
 Technologies Used
 ----------
